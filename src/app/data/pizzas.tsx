@@ -1,9 +1,9 @@
 const isDev = process.env.NODE_ENV === "development";
-const baseImgPath = isDev ? "" : "/pizzashop";
+const baseImgPath = "";
 const toppings = [
 	{
 		id: 1,
-		image: baseImgPath + "/cherry.png",
+		image: baseImgPath + "/cherrytomatoes.png",
 		name: "cherry tomatoes",
 		price: 2,
 	},
