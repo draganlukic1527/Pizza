@@ -33,14 +33,14 @@ const Pizza = ({ pizza }) => {
 					starts at {pizza.priceSm}
 				</div>
 				<button
-					className="hidden lg:flex gradient text-white rounded-lg btn-sm font-semibold text-sm"
+					className="hidden lg:flex bg-primary text-white rounded-lg btn-sm font-semibold text-sm"
 					onClick={() => setIsModalVisible(true)}
 				>
 					Choose
 				</button>
 
 				<button
-					className="btn btn-sm gradient text-sm lg:hidden px-3"
+					className="btn btn-sm bg-primary text-sm lg:hidden px-3"
 					onClick={() => setIsModalVisible(true)}
 				>
 					starts at {pizza.priceSm}

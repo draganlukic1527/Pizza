@@ -9,24 +9,18 @@ const toppings = [
 	},
 	{
 		id: 2,
-		image: baseImgPath + "/corn.png",
-		name: "corn",
-		price: 2,
-	},
-	{
-		id: 3,
 		image: baseImgPath + "/fresh-tomatoes.png",
 		name: "fresh tomatoes",
 		price: 2,
 	},
 	{
-		id: 4,
+		id: 3,
 		image: baseImgPath + "/jalapeno.png",
 		name: "jalapeno",
 		price: 2,
 	},
 	{
-		id: 5,
+		id: 4,
 		image: baseImgPath + "/parmesan.png",
 		name: "parmesan",
 		price: 2,
@@ -36,17 +30,6 @@ const toppings = [
 export const pizzas = [
 	{
 		id: 1,
-		name: "capricciosa",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae dolorum enim eveniet. Mollitia laudantium, sunt blanditiis ratione quam delectus.",
-		image: baseImgPath + "/capricciosa.webp",
-		priceSm: 9.99,
-		priceMd: 10.99,
-		priceLg: 11.99,
-		toppings,
-	},
-	{
-		id: 2,
 		name: "cheesy",
 		description:
 			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae dolorum enim eveniet. Mollitia laudantium, sunt blanditiis ratione quam delectus.",
@@ -57,7 +40,7 @@ export const pizzas = [
 		toppings,
 	},
 	{
-		id: 3,
+		id: 2,
 		name: "hawaii",
 		description:
 			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae dolorum enim eveniet. Mollitia laudantium, sunt blanditiis ratione quam delectus.",
@@ -68,7 +51,7 @@ export const pizzas = [
 		toppings,
 	},
 	{
-		id: 4,
+		id: 3,
 		name: "italian",
 		description:
 			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae dolorum enim eveniet. Mollitia laudantium, sunt blanditiis ratione quam delectus.",
@@ -79,7 +62,7 @@ export const pizzas = [
 		toppings,
 	},
 	{
-		id: 5,
+		id: 4,
 		name: "margherita",
 		description:
 			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae dolorum enim eveniet. Mollitia laudantium, sunt blanditiis ratione quam delectus.",
@@ -90,7 +73,7 @@ export const pizzas = [
 		toppings,
 	},
 	{
-		id: 6,
+		id: 5,
 		name: "pepperoni",
 		description:
 			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae dolorum enim eveniet. Mollitia laudantium, sunt blanditiis ratione quam delectus.",
@@ -101,40 +84,7 @@ export const pizzas = [
 		toppings,
 	},
 	{
-		id: 7,
-		name: "quattro formaggi",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae dolorum enim eveniet. Mollitia laudantium, sunt blanditiis ratione quam delectus.",
-		image: baseImgPath + "/quattro-formaggi.webp",
-		priceSm: 12.99,
-		priceMd: 13.99,
-		priceLg: 14.99,
-		toppings,
-	},
-	{
-		id: 8,
-		name: "quattro stagioni",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae dolorum enim eveniet. Mollitia laudantium, sunt blanditiis ratione quam delectus.",
-		image: baseImgPath + "/quattro-stagioni.webp",
-		priceSm: 11.99,
-		priceMd: 12.99,
-		priceLg: 13.99,
-		toppings,
-	},
-	{
-		id: 9,
-		name: "tonno",
-		description:
-			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae dolorum enim eveniet. Mollitia laudantium, sunt blanditiis ratione quam delectus.",
-		image: baseImgPath + "/tonno.webp",
-		priceSm: 10.99,
-		priceMd: 11.99,
-		priceLg: 12.99,
-		toppings,
-	},
-	{
-		id: 10,
+		id: 6,
 		name: "vegetarian",
 		description:
 			"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia recusandae dolorum enim eveniet. Mollitia laudantium, sunt blanditiis ratione quam delectus.",

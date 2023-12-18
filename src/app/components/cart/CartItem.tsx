@@ -26,7 +26,7 @@ const CartItem = ({ cartItem }) => {
 					</div>
 					<div className="flex items-center gap-x-1">
 						<div
-							className="w-[18px] h-[18px] flex justify-center items-center cursor-pointer text-white gradient rounded-full"
+							className="w-[18px] h-[18px] flex justify-center items-center cursor-pointer text-white bg-primary rounded-full"
 							onClick={() => decreaseQuantity(cartItem)}
 						>
 							<BiMinus />
@@ -35,7 +35,7 @@ const CartItem = ({ cartItem }) => {
 							{cartItem.quantity}
 						</div>
 						<div
-							className="w-[18px] h-[18px] flex justify-center items-center cursor-pointer text-white gradient rounded-full"
+							className="w-[18px] h-[18px] flex justify-center items-center cursor-pointer text-white bg-primary rounded-full"
 							onClick={() => increaseQuantity(cartItem)}
 						>
 							<BiPlus />
@@ -45,7 +45,7 @@ const CartItem = ({ cartItem }) => {
 				<div className="flex flex-col justify-between">
 					<div
 						className="text-2xl flex justify-center items-center self-end cursor-pointer
-             hover:scale-110 duration:100 transition-all text-orange"
+             hover:scale-110 duration:100 transition-all text-primary"
 						onClick={() => removeFromCart(cartItem)}
 					>
 						<IoCloseOutline />
@@ -65,7 +65,7 @@ const CartItem = ({ cartItem }) => {
 					return (
 						<div
 							key={index}
-							className="capitalize text-sm gradient font-medium px-3 py-1 rounded-full leading-none"
+							className="capitalize text-sm bg-primary font-medium px-3 py-1 rounded-full leading-none text-white"
 						>
 							{topping.name}
 						</div>

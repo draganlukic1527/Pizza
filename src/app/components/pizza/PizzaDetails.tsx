@@ -93,11 +93,11 @@ const PizzaDetails = ({ pizza, closeModal }) => {
 				</div>
 				<div className="h-full flex items-center px-2 lg:items-end">
 					<button
-						className="btn btn-lg gradient w-full flex justify-center gap-x-2"
+						className="btn btn-lg bg-primary w-full flex justify-center gap-x-2"
 						onClick={handleCartAdd}
 					>
-						<div>Add to cart for</div>
-						<div>$ {totalPrice}</div>
+						<div className="text-white">Add to cart for</div>
+						<div className="text-white">$ {totalPrice}</div>
 					</button>
 				</div>
 			</div>

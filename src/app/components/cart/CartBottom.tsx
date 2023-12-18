@@ -25,7 +25,7 @@ const CartBottom = () => {
 
 					<div className="flex flex-col gap-y-3">
 						<button
-							className="btn btn-lg gradient font-semibold flex justify-center"
+							className="btn btn-lg bg-primary font-semibold flex justify-center text-white"
 							onClick={() => {
 								setIsModalOpen(true);
 								setIsOpen(false);

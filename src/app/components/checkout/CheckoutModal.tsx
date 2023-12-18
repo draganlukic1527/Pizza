@@ -103,7 +103,7 @@ const CheckoutModal = ({ isModalOpen, closeModal }) => {
 									</div>
 								</div>
 								<button
-									className="btn btn-lg gradient w-full"
+									className="btn btn-lg bg-primary w-full"
 									onClick={() => setSuccessMessage(true)}
 								>
 									Place order
